@@ -7,11 +7,11 @@ urlpatterns = [
 
 # MARK AS DONE
 
-    path('mark_as_done/<int:pk>/', views.mark_as_done, name='mark_as_done'),
+    path('mark_as_done/<int:pk>/', views.mark_as_done, name = 'mark_as_done'),
 
 # MARK AS UNDONE
 
-    path('mark_as_undone/<int:pk>/', views.mark_as_undone, name='mark_as_undone'),
+    path('mark_as_undone/<int:pk>/', views.mark_as_undone, name = 'mark_as_undone'),
 
 
 # EDIT FEATURE
