@@ -17,4 +17,7 @@ urlpatterns = [
 # EDIT FEATURE
     path('edit_task/<int:pk>/', views.edit_task, name = 'edit_task'),
 
+# DELETE TASK
+    path('delete_task/<int:pk>/', views.delete_task, name = 'delete_task'),
+
 ]
